@@ -51,6 +51,15 @@ header {
   
 
 }
+.top-wrapper, .middle-wrapper, .lower-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+.top-wrapper {
+
+}
 
 
 .middle-wrapper {
@@ -65,3 +74,19 @@ header {
   text-align: center;
 }
 
+.social-icons i {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  font-size: 18pt;
+
+}
+
+.social-icons a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
