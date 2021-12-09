@@ -22,7 +22,9 @@ body {
 .container {
   width: 600px;
   margin: 0 auto;
-  overflow: auto;
+  
+  overflow: hidden;
+  
   padding: 0 2rem;
 }
 
@@ -68,10 +70,26 @@ height: 200px;
 }
 
 
-.middle-wrapper {
+.middle-bg {
   background-color: #fad3aa;
+}
+.middle-wrapper  {
+  margin: 0;
+}
+
+.middle-wrapper table {
+  border-spacing: 1.5rem 0rem;
+  padding: 1rem 0;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   
 }
+
+
+
 
 .middle-wrapper img {
   width: 264px;
