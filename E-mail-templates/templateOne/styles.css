@@ -110,6 +110,12 @@ height: 200px;
   text-align: center;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 0 1rem 2rem 1rem;
+}
 .social-icons i {
   justify-content: center;
   align-items: center;
@@ -130,7 +136,9 @@ height: 200px;
 
 /* Button */
 
-
+.bottom-footer {
+  margin: 2rem 0rem 0rem 0rem; 
+}
 
 button {
   margin: 1rem;
