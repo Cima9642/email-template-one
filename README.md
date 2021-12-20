@@ -16,4 +16,4 @@
 
 ## Deployment
 
-Live Preview: [Here](https://email-template-1.onrender.com)
+Live Preview: [Here](https://email-template-1.onrender.com/)
