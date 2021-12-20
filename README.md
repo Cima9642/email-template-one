@@ -1,5 +1,5 @@
-# Email Template #2
-2/5 Email Templates, big banner and 3 columns 
+# Email Template #1
+1/5 Email Templates, big banner and 3 columns 
 
 
 ## Authors
