@@ -21,6 +21,9 @@ body {
   background-color: #fff;
   
 }
+hr {
+  color: aliceblue;
+}
 .container {
   width: 600px;
   margin: 0 auto;
@@ -80,6 +83,10 @@ header {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
+  vertical-align: top;
+
+
 }
 
 .middle-wrapper i {
@@ -135,6 +142,8 @@ header {
 
 .bottom-footer {
   margin: 2rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
 }
 
 button {
@@ -181,8 +190,30 @@ button {
   }
 @media only screen and (max-width: 468px) {
   .container {
-    width: 100%;
+    width: 468px!important;
   }
+  table {
+    max-width: 468px;
+    width: 468px;
+  }
+body {
+  max-width: 468px;
+  
+}
 
-
+header {
+  width: 468px;
+}
+footer {
+  max-width: 468px;
+}
+.social-icons {
+  max-width: 85%;
+}
+hr {
+  width: 85%;
+}
+.bottom-footer {
+  max-width: 85%;
+}
 }
